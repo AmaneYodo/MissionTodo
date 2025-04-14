@@ -1,6 +1,6 @@
 <div class="container-xl pt-5">
     <div class="row justify-content-center align-items-center">
-        <div class="col-6">
+        <div class="col-12 col-md-6">
             <div class="card">
                 <div class="card-header fw-bold">タスクを編集する</div>
                     <form method="post" action="{{ route('update_task',$task->id)}}">
