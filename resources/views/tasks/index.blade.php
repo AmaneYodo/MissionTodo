@@ -1,8 +1,8 @@
-<x-main>
+<x-common.main>
 
     <x-slot name="header">
-        <x-side-bar>
-        </x-side-bar>
+        <x-common.side-bar>
+        </x-common.side-bar>
     </x-slot>
 
     @if(!isset($checked) && !isset($deadline) && !isset($listId))
@@ -25,5 +25,5 @@
         </x-list-group>
     @endif
 
-</x-main>
+</x-common.main>
 

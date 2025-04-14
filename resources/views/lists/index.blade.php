@@ -1,11 +1,11 @@
-<x-main>
+<x-common.main>
 
     <x-slot name="header">
-        <x-side-bar>
-        </x-side-bar>
+        <x-common.side-bar>
+        </x-common.side-bar>
     </x-slot>
     
     <x-list-item :userLists="$userLists">
     </x-list-item>
     
-</x-main>    
+</x-common.main>    

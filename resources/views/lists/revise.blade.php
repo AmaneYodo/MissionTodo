@@ -1,11 +1,11 @@
-<x-main>
+<x-common.main>
 
     <x-slot name="header">
-        <x-side-bar>
-        </x-side-bar>
+        <x-common.side-bar>
+        </x-common.side-bar>
     </x-slot>
     
     <x-revise-list :currentList="$currentList">
     </x-revise-list>
     
-</x-main>    
+</x-common.main>    

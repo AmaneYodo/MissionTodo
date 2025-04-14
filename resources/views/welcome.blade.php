@@ -1,8 +1,8 @@
-<x-main>
+<x-common.main>
 
     <x-slot name="header">
-        <x-header>
-        </x-header>
+        <x-common.header>
+        </x-common.header>
     </x-slot>
 
     <div class="vh-100 d-flex">
@@ -31,4 +31,4 @@
 
     </div>
 
-</x-main>    
+</x-common.main>    
