@@ -25,8 +25,7 @@
             </div>
         </div>
 
-        <div
-            class="snap-child section-right w-100 w-md-50 d-flex flex-column align-items-center justify-content-center">
+        <div class="snap-child section-right w-100 w-md-50 d-flex flex-column align-items-center justify-content-center">
             <div class="text-center">
                 <h2 class="text-success fw-bold mb-4">Start Mission Todo</h2>
                 <p class="mb-2">ご入力いただいたメールアドレスでアカウントを作成します</p>

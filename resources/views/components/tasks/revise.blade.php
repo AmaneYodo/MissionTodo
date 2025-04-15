@@ -9,7 +9,7 @@
                         <div class="card-body">
                             <div class="form-group">
                                 <label for="task">タスク</label>
-                                <input type="text" class="form-control border-success" name="task_name" id="taskInput" value="{{ $task->task }}" />
+                                    <input type="text" class="form-control border-success" name="task_name" id="taskInput" value="{{ $task->task }}" />
                                     @error('task_name')
                                         <div class="mt-3">
                                         <p>{{ $message}}</p>

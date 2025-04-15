@@ -21,7 +21,7 @@ class ListItem extends Model
         return $this->hasMany(MissionTodo::class); //リストは複数のタスクを持つ
     }
 
-     public function listUser()
+    public function listUser()
     {
         return $this->belongsTo(User::class); //リストは一人のユーザーに関連づけられる
     }

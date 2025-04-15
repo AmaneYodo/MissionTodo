@@ -26,10 +26,6 @@ Route::get('/', function () {
     return view('welcome'); // ゲストならそのままwelcome
 })->name('welcome');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
-
 Route::middleware('auth')->group(function () { //ログインされている場合にのみルーティングされる
 
 Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
